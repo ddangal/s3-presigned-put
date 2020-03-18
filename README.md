@@ -31,3 +31,19 @@ Frontend side:
 3) Go to App.js file and update the API endpoint on variable named 'requestURL'
 
 (Note: we must need to input all five input fields and response are logged in console) 
+
+
+S3 bucket
+------------------------------------
+create a S3 bucket and put the following CORS policy to that bucket
+
+<?xml version="1.0" encoding="UTF-8"?>
+<CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+<CORSRule>
+    <AllowedOrigin>*</AllowedOrigin>
+    <AllowedMethod>GET</AllowedMethod>
+    <AllowedMethod>PUT</AllowedMethod>
+    <AllowedMethod>POST</AllowedMethod>
+    <AllowedHeader>*</AllowedHeader>
+</CORSRule>
+</CORSConfiguration>
