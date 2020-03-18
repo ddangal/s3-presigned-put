@@ -37,6 +37,7 @@ S3 bucket
 ------------------------------------
 create a S3 bucket and put the following CORS policy to that bucket
 
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
 <CORSRule>
@@ -47,3 +48,4 @@ create a S3 bucket and put the following CORS policy to that bucket
     <AllowedHeader>*</AllowedHeader>
 </CORSRule>
 </CORSConfiguration>
+```
