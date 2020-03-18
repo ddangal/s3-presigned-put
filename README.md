@@ -28,6 +28,6 @@ Frontend side:
 
 1) git clone
 2) npm install
-3) Go to App.js file and update the API endpoint on requestURL
+3) Go to App.js file and update the API endpoint on variable named 'requestURL'
 
 (Note: we must need to input all five input fields and response are logged in console) 
